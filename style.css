@@ -10,6 +10,9 @@ font-family: 'Poppins', sans-serif;
 margin:0;
 padding:0;
 }
+.education-item{
+color:#000000;
+}
 .project img:hover{
 transform:scale(1.05);
 transition:0.3s;
