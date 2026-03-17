@@ -437,3 +437,42 @@ width:90%;
 }
 
 }
+.projects-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.project-card {
+  background: #0f1f3d;
+  padding: 25px;
+  border-radius: 15px;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-card h3 {
+  color: #4fc3f7;
+}
+
+.btns {
+  margin-top: 15px;
+}
+
+.btns a {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 15px;
+  background: #4fc3f7;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+}
