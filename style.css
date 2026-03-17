@@ -228,3 +228,27 @@ nav a{
 }
 
 }
+/* HIRE BUTTON */
+.hire-btn{
+  margin-left:10px;
+  background:#22c55e;
+}
+
+.hire-btn:hover{
+  background:#16a34a;
+}
+
+/* SMOOTH SCROLL */
+html{
+  scroll-behavior:smooth;
+}
+
+/* LINKS */
+#contact a{
+  color:#38bdf8;
+  text-decoration:none;
+}
+
+#contact a:hover{
+  text-decoration:underline;
+}
