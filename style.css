@@ -105,15 +105,32 @@ h2{
 /* SKILLS */
 .skills-container{
   display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
-  gap:15px;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:20px;
 }
 
 .card{
   background:#1f2937;
-  padding:15px;
+  padding:20px;
+  border-radius:12px;
   text-align:center;
-  border-radius:8px;
+  transition:0.3s;
+  box-shadow:0 8px 20px rgba(0,0,0,0.4);
+}
+
+.card h3{
+  color:#38bdf8;
+  margin-bottom:10px;
+}
+
+.card p{
+  font-size:14px;
+  color:#cbd5f5;
+}
+
+.card:hover{
+  transform:translateY(-10px);
+  background:#111827;
 }
 
 /* EDUCATION */
