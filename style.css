@@ -476,3 +476,6 @@ width:90%;
   border-radius: 8px;
   text-decoration: none;
 }
+.project-card {
+  backdrop-filter: blur(10px);
+}
