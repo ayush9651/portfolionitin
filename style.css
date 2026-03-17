@@ -133,15 +133,42 @@ h2{
   background:#111827;
 }
 
-/* EDUCATION */
-.edu-card{
-  background:#1f2937;
-  padding:10px;
-  margin:10px auto;
-  max-width:500px;
-  border-radius:8px;
+#education{
+  padding:50px 20px;
+  text-align:center;
 }
 
+.edu-card{
+  background:#1f2937;
+  padding:20px;
+  margin:20px auto;
+  max-width:600px;
+  border-radius:12px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.4);
+  transition:0.3s;
+}
+
+.edu-card h3{
+  color:#38bdf8;
+  margin-bottom:5px;
+}
+
+.edu-card span{
+  display:block;
+  color:#94a3b8;
+  font-size:14px;
+  margin-bottom:10px;
+}
+
+.edu-card p{
+  font-size:14px;
+  color:#cbd5f5;
+}
+
+.edu-card:hover{
+  transform:translateY(-8px);
+  background:#111827;
+}
 /* FOOTER */
 footer{
   text-align:center;
